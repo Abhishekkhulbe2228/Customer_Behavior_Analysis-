@@ -1,4 +1,5 @@
 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
+
 This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
 📌 Project Overview
@@ -14,44 +15,189 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
 <img width="1672" height="941" alt="project_structure" src="https://github.com/user-attachments/assets/3de88832-a2a9-443f-8350-111932d0da6d" />
 
-How to Use This Project
-Clone the repository
+# 🛠️ How to Use This Project
 
-git clone https://github.com//customer-trends-data-analysis-SQL-Python-PowerBI.git
-cd customer-trends-data-analysis-SQL-Python-PowerBI
-Open Customer_Shopping_Behavior_Analysis.ipynb notebook
+## 1. Clone the Repository
 
-This file contains:
+```bash
+git clone https://github.com/Abhishekkhulbe2228/Customer_Behavior_Analysis.git
+cd your-repository-name
+```
 
-Data Import
+---
 
-Data exploration
+## 2. Open the Jupyter Notebook
 
-Data cleaning
+Open the notebook file:
 
-Connection to SQL Database
+```bash
+jupyter notebook
+```
 
-Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+Open:
 
-Create a database in SQL
+```bash
+data_analysis_project.ipynb
+```
 
-Run Python code to load data into SQL database
+### This notebook contains:
 
-Open customer_behavior_sql_queries.sql
+- 📥 Data Import
+- 🔍 Exploratory Data Analysis (EDA)
+- 🧹 Data Cleaning & Preprocessing
+- 📊 Data Visualization
+- 🔗 Connection to PostgreSQL Server
+- 🗂️ Data Loading into SQL Database
 
-Answer Business Questions using SQL Queries
+---
 
-Connect the SQL Database to Power BI
+## 3. Load Data into PostgreSQL Server
 
-Open customer_behavior_dashboard.pbix
+### Steps:
 
-Create interactive dashboard in Power BI
+- Create a database in PostgreSQL
+- Configure database credentials in Python
+- Run Python code to upload cleaned data into SQL tables
 
-Create Project Report and Presentation
+Example:
 
-Create project report
+```python
+from sqlalchemy import create_engine
 
-Build presentation 
+engine = create_engine(
+    "postgresql://username:password@localhost:5432/database_name"
+)
+```
 
-📜 License
-MIT — feel free to fork, star, and use in your portfolio.
+---
+
+## 4. Run SQL Queries
+
+Open the SQL file:
+
+```bash
+project_sql_queries.sql
+```
+
+### Perform:
+
+- Data filtering
+- Aggregation using SQL functions
+- Business problem solving
+- Trend analysis
+- KPI calculations
+
+---
+
+## 5. Connect PostgreSQL with Power BI
+
+### Steps:
+
+- Open Power BI Desktop
+- Connect to PostgreSQL Database
+- Import SQL tables
+- Transform data if needed
+- Create relationships between tables
+
+---
+
+## 6. Build Interactive Dashboard in Power BI
+
+Create visualizations such as:
+
+- 📈 Line Charts
+- 📊 Bar Charts
+- 🥧 Pie Charts
+- 📌 KPI Cards
+- 🎛️ Filters & Slicers
+- 📉 Trend Analysis
+
+Open:
+
+```bash
+project_dashboard.pbix
+```
+
+---
+
+## 7. Create Project Report
+
+Prepare a detailed report including:
+
+- Project Objective
+- Dataset Information
+- Data Cleaning Process
+- SQL Analysis
+- Dashboard Insights
+- Final Conclusions
+
+---
+
+## 8. Create Final Project Presentation
+
+Create a presentation covering:
+
+- Problem Statement
+- Workflow
+- EDA Findings
+- SQL Analysis
+- Dashboard Screenshots
+- Key Insights
+- Conclusion
+
+Presentation file:
+
+```bash
+project_presentation.pptx
+```
+
+---
+
+# 📂 Project Workflow
+
+```text
+Business Problem Statement
+            ↓
+Data Import using Python
+            ↓
+EDA & Data Cleaning
+            ↓
+Load Data into PostgreSQL
+            ↓
+Run SQL Queries & Analysis
+            ↓
+Connect SQL with Power BI
+            ↓
+Build Interactive Dashboard
+            ↓
+Generate Insights & Reports
+            ↓
+Create Final Presentation
+```
+
+---
+
+# 🚀 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- PostgreSQL
+- SQL
+- Power BI
+- Jupyter Notebook
+- PowerPoint
+
+---
+
+# 📌 Project Outcome
+
+This project demonstrates a complete end-to-end Data Analytics workflow involving:
+
+✔ Data Cleaning  
+✔ SQL Analysis  
+✔ Dashboard Development  
+✔ Business Insights Generation  
+✔ Report & Presentation Creation  

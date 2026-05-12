@@ -1,4 +1,6 @@
-👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
+# 👨🏻‍💻 Customer Behavior Data Analytics Portfolio Project
+
+## 🚀 End-to-End Data Analytics Workflow using Python, PostgreSQL & Power BI
 
 This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
@@ -20,7 +22,7 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Abhishekkhulbe2228/Customer_Behavior_Analysis.git
+git clone https://github.com/Abhishekkhulbe2228/Customer_Behavior_Analysis-.git
 cd your-repository-name
 ```
 
@@ -201,3 +203,6 @@ This project demonstrates a complete end-to-end Data Analytics workflow involvin
 ✔ Dashboard Development  
 ✔ Business Insights Generation  
 ✔ Report & Presentation Creation  
+
+📜 License
+MIT — feel free to fork, star, and use in your portfolio.
